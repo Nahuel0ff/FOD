@@ -90,17 +90,6 @@ begin
 end;
 
 
-
-
-
-
-
-
-
-
-
-
-
 procedure exportar (var a:archivo);
 var
 	c:celular;
