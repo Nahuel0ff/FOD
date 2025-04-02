@@ -53,7 +53,7 @@ begin
 	close(emp_log);
 end;
 
-procedure leerArchivo (var emp_log:archivo_emp; e:empleado);
+procedure leerArchivo (var emp_log:archivo_emp; var e:empleado);
 begin
 	if not EOF(emp_log) then
 		read(emp_log,e);
